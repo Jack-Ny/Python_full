@@ -1,21 +1,14 @@
-month = input("Input the month (1 - 12) or (January - December): ")
+#< >
+season = ""
+month = int(input("Input the month (1 - 12) or (January - December): "))
 
-if month in ('January', 'February', 'March'):
+if month in ('December', 'January', 'February', 12, 1, 2):
 	season = 'winter'
-elif month in ('April', 'May', 'June'):
-	season = 'spring'
-elif month in ('July', 'August', 'September'):
-	season = 'summer'
-else:
+if month in ('September', 'October', 'November', 9, 10, 11):
 	season = 'autumn'
-
-if (month == 'March'):
-	season = 'spring'
-elif (month == 'June'):
+if month in ('June', 'July', 'August', 6, 7, 8):
 	season = 'summer'
-elif (month == 'September'):
-	season = 'autumn'
-elif (month == 'December'):
-	season = 'winter'
+if month in ('March', 'April', 'May', 3, 4, 5):
+	season = 'spring'	
 
-print("Season is",season)
+print("Season is",season)	
