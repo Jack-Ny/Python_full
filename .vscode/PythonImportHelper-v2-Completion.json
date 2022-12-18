@@ -1,0 +1,748 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "importPath": "psycopg2._psycopg",
+        "description": "psycopg2._psycopg",
+        "isExtraImport": true,
+        "detail": "psycopg2._psycopg",
+        "documentation": {}
+    },
+    {
+        "label": "texte",
+        "kind": 5,
+        "importPath": "Day_1.Challenge.challenge",
+        "description": "Day_1.Challenge.challenge",
+        "peekOfCode": "texte = str(input('Put the string (10 characters) \\t: '))\nsize = len(texte)\n# Convert the string to list    \nstr_var = list(texte)\n# Then shuffle the string contents and will print the string    \nrandom.shuffle(str_var)\nif size > 10 :\n    print('String too long')\nelif size  < 10 :\n    print('String not long enough')",
+        "detail": "Day_1.Challenge.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "size",
+        "kind": 5,
+        "importPath": "Day_1.Challenge.challenge",
+        "description": "Day_1.Challenge.challenge",
+        "peekOfCode": "size = len(texte)\n# Convert the string to list    \nstr_var = list(texte)\n# Then shuffle the string contents and will print the string    \nrandom.shuffle(str_var)\nif size > 10 :\n    print('String too long')\nelif size  < 10 :\n    print('String not long enough')\nif size == 10 :",
+        "detail": "Day_1.Challenge.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "str_var",
+        "kind": 5,
+        "importPath": "Day_1.Challenge.challenge",
+        "description": "Day_1.Challenge.challenge",
+        "peekOfCode": "str_var = list(texte)\n# Then shuffle the string contents and will print the string    \nrandom.shuffle(str_var)\nif size > 10 :\n    print('String too long')\nelif size  < 10 :\n    print('String not long enough')\nif size == 10 :\n    for i in range(size) :\n    # i + 1 before the last character",
+        "detail": "Day_1.Challenge.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "computer_brand",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-4",
+        "description": "Day_1.Exercise XP.Exercise-4",
+        "peekOfCode": "computer_brand = \"AlienWare\"\nprint(\"I have \" + computer_brand + \" computer\")",
+        "detail": "Day_1.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-5",
+        "description": "Day_1.Exercise XP.Exercise-5",
+        "peekOfCode": "name = 'Ryota Kise'\nage = 23\nshoe_size = 42\ninfo = \"My name is {} i have {} old . I play basketball every week-end to keep fit. I forgot I put on {}\".format(name, age, shoe_size)\nprint(info)",
+        "detail": "Day_1.Exercise XP.Exercise-5",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-5",
+        "description": "Day_1.Exercise XP.Exercise-5",
+        "peekOfCode": "age = 23\nshoe_size = 42\ninfo = \"My name is {} i have {} old . I play basketball every week-end to keep fit. I forgot I put on {}\".format(name, age, shoe_size)\nprint(info)",
+        "detail": "Day_1.Exercise XP.Exercise-5",
+        "documentation": {}
+    },
+    {
+        "label": "shoe_size",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-5",
+        "description": "Day_1.Exercise XP.Exercise-5",
+        "peekOfCode": "shoe_size = 42\ninfo = \"My name is {} i have {} old . I play basketball every week-end to keep fit. I forgot I put on {}\".format(name, age, shoe_size)\nprint(info)",
+        "detail": "Day_1.Exercise XP.Exercise-5",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-5",
+        "description": "Day_1.Exercise XP.Exercise-5",
+        "peekOfCode": "info = \"My name is {} i have {} old . I play basketball every week-end to keep fit. I forgot I put on {}\".format(name, age, shoe_size)\nprint(info)",
+        "detail": "Day_1.Exercise XP.Exercise-5",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-6",
+        "description": "Day_1.Exercise XP.Exercise-6",
+        "peekOfCode": "a = 13\n# a = int (input('Entrez la valeur de a : '))\nb = 12\n# b = int (input('Entrez la valeur de b : '))\nif a > b :\n    print(\"Hello world\")",
+        "detail": "Day_1.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-6",
+        "description": "Day_1.Exercise XP.Exercise-6",
+        "peekOfCode": "b = 12\n# b = int (input('Entrez la valeur de b : '))\nif a > b :\n    print(\"Hello world\")",
+        "detail": "Day_1.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-7",
+        "description": "Day_1.Exercise XP.Exercise-7",
+        "peekOfCode": "a = int(input(\"Enter a number : \"))\nif a%2 == 0 :\n    print(\"This number is even \")\nelse:\n    print(\"This number is not even\")",
+        "detail": "Day_1.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-8",
+        "description": "Day_1.Exercise XP.Exercise-8",
+        "peekOfCode": "name = \"Ryota\"\ntest = str((input('Enter your name :')))\nif name == test :\n    print('Subarashi, my self')",
+        "detail": "Day_1.Exercise XP.Exercise-8",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-8",
+        "description": "Day_1.Exercise XP.Exercise-8",
+        "peekOfCode": "test = str((input('Enter your name :')))\nif name == test :\n    print('Subarashi, my self')",
+        "detail": "Day_1.Exercise XP.Exercise-8",
+        "documentation": {}
+    },
+    {
+        "label": "taille",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP.Exercise-9",
+        "description": "Day_1.Exercise XP.Exercise-9",
+        "peekOfCode": "taille = int((input(\"Enter you height (in cm) : \" )))\nif taille > 148 :\n    print(\"You are tall enough to ride.\")\nelse :\n    print(\"You need to grow some more to ride.\")",
+        "detail": "Day_1.Exercise XP.Exercise-9",
+        "documentation": {}
+    },
+    {
+        "label": "season",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP Gold.Exercise-2",
+        "description": "Day_1.Exercise XP Gold.Exercise-2",
+        "peekOfCode": "season = \"\"\nmonth = int(input(\"Input the month (1 - 12) or (January - December): \"))\nif month in ('December', 'January', 'February', 12, 1, 2):\n\tseason = 'winter'\nif month in ('September', 'October', 'November', 9, 10, 11):\n\tseason = 'autumn'\nif month in ('June', 'July', 'August', 6, 7, 8):\n\tseason = 'summer'\nif month in ('March', 'April', 'May', 3, 4, 5):\n\tseason = 'spring'\t",
+        "detail": "Day_1.Exercise XP Gold.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "month",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP Gold.Exercise-2",
+        "description": "Day_1.Exercise XP Gold.Exercise-2",
+        "peekOfCode": "month = int(input(\"Input the month (1 - 12) or (January - December): \"))\nif month in ('December', 'January', 'February', 12, 1, 2):\n\tseason = 'winter'\nif month in ('September', 'October', 'November', 9, 10, 11):\n\tseason = 'autumn'\nif month in ('June', 'July', 'August', 6, 7, 8):\n\tseason = 'summer'\nif month in ('March', 'April', 'May', 3, 4, 5):\n\tseason = 'spring'\t\nprint(\"Season is\",season)",
+        "detail": "Day_1.Exercise XP Gold.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "\tseason",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP Gold.Exercise-2",
+        "description": "Day_1.Exercise XP Gold.Exercise-2",
+        "peekOfCode": "\tseason = 'winter'\nif month in ('September', 'October', 'November', 9, 10, 11):\n\tseason = 'autumn'\nif month in ('June', 'July', 'August', 6, 7, 8):\n\tseason = 'summer'\nif month in ('March', 'April', 'May', 3, 4, 5):\n\tseason = 'spring'\t\nprint(\"Season is\",season)",
+        "detail": "Day_1.Exercise XP Gold.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "\tseason",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP Gold.Exercise-2",
+        "description": "Day_1.Exercise XP Gold.Exercise-2",
+        "peekOfCode": "\tseason = 'autumn'\nif month in ('June', 'July', 'August', 6, 7, 8):\n\tseason = 'summer'\nif month in ('March', 'April', 'May', 3, 4, 5):\n\tseason = 'spring'\t\nprint(\"Season is\",season)",
+        "detail": "Day_1.Exercise XP Gold.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "\tseason",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP Gold.Exercise-2",
+        "description": "Day_1.Exercise XP Gold.Exercise-2",
+        "peekOfCode": "\tseason = 'summer'\nif month in ('March', 'April', 'May', 3, 4, 5):\n\tseason = 'spring'\t\nprint(\"Season is\",season)",
+        "detail": "Day_1.Exercise XP Gold.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "\tseason",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP Gold.Exercise-2",
+        "description": "Day_1.Exercise XP Gold.Exercise-2",
+        "peekOfCode": "\tseason = 'spring'\t\nprint(\"Season is\",season)",
+        "detail": "Day_1.Exercise XP Gold.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "mot",
+        "kind": 5,
+        "importPath": "Day_1.Exercise XP Ninja.Exercise-5",
+        "description": "Day_1.Exercise XP Ninja.Exercise-5",
+        "peekOfCode": "mot = str (input(\"Enter sentence (without A) : \"))\nwhile True: \n        if \"A\" in mot:\n            mot = str (input(\"Enter sentence (without A) : \"))\n        else :\n            break\nprint(\"Success your sentences is correct !\")",
+        "detail": "Day_1.Exercise XP Ninja.Exercise-5",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Day_2.Challenge.Challenge-1",
+        "description": "Day_2.Challenge.Challenge-1",
+        "peekOfCode": "num = int(input(\"Entrer un number : \"))\nprint(\"\\n\")\nleng = int(input(\"Entrer un lenght : \"))\ndico = []\nfor x in range (1, leng+1):\n    dico.append(num*x) \nprint(dico)",
+        "detail": "Day_2.Challenge.Challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "leng",
+        "kind": 5,
+        "importPath": "Day_2.Challenge.Challenge-1",
+        "description": "Day_2.Challenge.Challenge-1",
+        "peekOfCode": "leng = int(input(\"Entrer un lenght : \"))\ndico = []\nfor x in range (1, leng+1):\n    dico.append(num*x) \nprint(dico)",
+        "detail": "Day_2.Challenge.Challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "dico",
+        "kind": 5,
+        "importPath": "Day_2.Challenge.Challenge-1",
+        "description": "Day_2.Challenge.Challenge-1",
+        "peekOfCode": "dico = []\nfor x in range (1, leng+1):\n    dico.append(num*x) \nprint(dico)",
+        "detail": "Day_2.Challenge.Challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "Day_2.Challenge.Challenge-2",
+        "description": "Day_2.Challenge.Challenge-2",
+        "peekOfCode": "string = input(\"Input a string : \")\nnew_string = \"\"\nfor i in range(len(string)):\n  if i == 0 or string[i] != string[i-1]:\n    new_string += string[i]\nprint(new_string)",
+        "detail": "Day_2.Challenge.Challenge-2",
+        "documentation": {}
+    },
+    {
+        "label": "new_string",
+        "kind": 5,
+        "importPath": "Day_2.Challenge.Challenge-2",
+        "description": "Day_2.Challenge.Challenge-2",
+        "peekOfCode": "new_string = \"\"\nfor i in range(len(string)):\n  if i == 0 or string[i] != string[i-1]:\n    new_string += string[i]\nprint(new_string)",
+        "detail": "Day_2.Challenge.Challenge-2",
+        "documentation": {}
+    },
+    {
+        "label": "my_fav_numbers",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-1",
+        "description": "Day_2.Exercise XP.Exercise-1",
+        "peekOfCode": "my_fav_numbers = set()\nmy_fav_numbers = {1, 6, 4, 8, 3, 12, 22}\n# Add two numbers to the set\nmy_fav_numbers.add(3)\nmy_fav_numbers.add(11)\n# Delete the last number\nmy_fav_numbers.pop()\n# Create a new set\nfriend_fav_numbers = set()\nfriend_fav_numbers = {13, 18, 111, 90, 324}",
+        "detail": "Day_2.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "my_fav_numbers",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-1",
+        "description": "Day_2.Exercise XP.Exercise-1",
+        "peekOfCode": "my_fav_numbers = {1, 6, 4, 8, 3, 12, 22}\n# Add two numbers to the set\nmy_fav_numbers.add(3)\nmy_fav_numbers.add(11)\n# Delete the last number\nmy_fav_numbers.pop()\n# Create a new set\nfriend_fav_numbers = set()\nfriend_fav_numbers = {13, 18, 111, 90, 324}\nour_fav_numbers = my_fav_numbers.union(friend_fav_numbers)",
+        "detail": "Day_2.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "friend_fav_numbers",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-1",
+        "description": "Day_2.Exercise XP.Exercise-1",
+        "peekOfCode": "friend_fav_numbers = set()\nfriend_fav_numbers = {13, 18, 111, 90, 324}\nour_fav_numbers = my_fav_numbers.union(friend_fav_numbers)\nprint(our_fav_numbers)",
+        "detail": "Day_2.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "friend_fav_numbers",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-1",
+        "description": "Day_2.Exercise XP.Exercise-1",
+        "peekOfCode": "friend_fav_numbers = {13, 18, 111, 90, 324}\nour_fav_numbers = my_fav_numbers.union(friend_fav_numbers)\nprint(our_fav_numbers)",
+        "detail": "Day_2.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "our_fav_numbers",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-1",
+        "description": "Day_2.Exercise XP.Exercise-1",
+        "peekOfCode": "our_fav_numbers = my_fav_numbers.union(friend_fav_numbers)\nprint(our_fav_numbers)",
+        "detail": "Day_2.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "sandwich_orders",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-10",
+        "description": "Day_2.Exercise XP.Exercise-10",
+        "peekOfCode": "sandwich_orders = [\"Tuna sandwich\", \"Avocado sandwich\", \"Egg sandwich\", \"Sabih sandwich\", \"Pastrami sandwich\"]\n# creation of empty list\nfinished_sandwiches = list()\n# create \"p\" which will allow us to determine the exact number of sandwiches prepared\np = 0\n# remove ready-made sandwiches\nwhile sandwich_orders !=[]:\n    test =input(\"What sandwich did you finish making?\")\n    if test in sandwich_orders:\n        sandwich_orders.remove(test)",
+        "detail": "Day_2.Exercise XP.Exercise-10",
+        "documentation": {}
+    },
+    {
+        "label": "finished_sandwiches",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-10",
+        "description": "Day_2.Exercise XP.Exercise-10",
+        "peekOfCode": "finished_sandwiches = list()\n# create \"p\" which will allow us to determine the exact number of sandwiches prepared\np = 0\n# remove ready-made sandwiches\nwhile sandwich_orders !=[]:\n    test =input(\"What sandwich did you finish making?\")\n    if test in sandwich_orders:\n        sandwich_orders.remove(test)\n        finished_sandwiches.append(test)\n        p = p + 1",
+        "detail": "Day_2.Exercise XP.Exercise-10",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-10",
+        "description": "Day_2.Exercise XP.Exercise-10",
+        "peekOfCode": "p = 0\n# remove ready-made sandwiches\nwhile sandwich_orders !=[]:\n    test =input(\"What sandwich did you finish making?\")\n    if test in sandwich_orders:\n        sandwich_orders.remove(test)\n        finished_sandwiches.append(test)\n        p = p + 1\n# Print the ready-made sandwiches\nfor i in range(0, p):",
+        "detail": "Day_2.Exercise XP.Exercise-10",
+        "documentation": {}
+    },
+    {
+        "label": "sandwich_orders",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-11",
+        "description": "Day_2.Exercise XP.Exercise-11",
+        "peekOfCode": "sandwich_orders = [\"Pastrami sandwich\", \"Tuna sandwich\", \"Avocado sandwich\", \"Pastrami sandwich\", \"Egg sandwich\", \"Sabih sandwich\", \"Pastrami sandwich\"]\nfinished_sandwiches = list()\np = 0\nprint(\"ALERT!!! Charcuterie no longer has pastrami\")\n# pastramis delete\nwhile \"Pastrami sandwich\" in sandwich_orders:\n    sandwich_orders.remove(\"Pastrami sandwich\")\nwhile sandwich_orders != [] :\n    test = input(\"What sandwich did you finish making? \")\n    if test in sandwich_orders:",
+        "detail": "Day_2.Exercise XP.Exercise-11",
+        "documentation": {}
+    },
+    {
+        "label": "finished_sandwiches",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-11",
+        "description": "Day_2.Exercise XP.Exercise-11",
+        "peekOfCode": "finished_sandwiches = list()\np = 0\nprint(\"ALERT!!! Charcuterie no longer has pastrami\")\n# pastramis delete\nwhile \"Pastrami sandwich\" in sandwich_orders:\n    sandwich_orders.remove(\"Pastrami sandwich\")\nwhile sandwich_orders != [] :\n    test = input(\"What sandwich did you finish making? \")\n    if test in sandwich_orders:\n        sandwich_orders.remove(test)",
+        "detail": "Day_2.Exercise XP.Exercise-11",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-11",
+        "description": "Day_2.Exercise XP.Exercise-11",
+        "peekOfCode": "p = 0\nprint(\"ALERT!!! Charcuterie no longer has pastrami\")\n# pastramis delete\nwhile \"Pastrami sandwich\" in sandwich_orders:\n    sandwich_orders.remove(\"Pastrami sandwich\")\nwhile sandwich_orders != [] :\n    test = input(\"What sandwich did you finish making? \")\n    if test in sandwich_orders:\n        sandwich_orders.remove(test)\n        finished_sandwiches.append(test)",
+        "detail": "Day_2.Exercise XP.Exercise-11",
+        "documentation": {}
+    },
+    {
+        "label": "basket",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-3",
+        "description": "Day_2.Exercise XP.Exercise-3",
+        "peekOfCode": "basket = [\"Banana\", \"Apples\", \"Oranges\", \"Blueberries\"]\nbasket.remove(\"Banana\")\nbasket.remove(\"Blueberries\")\nbasket.append(\"Kiwi\")\nbasket.append(\"Apples\")\napples = 0\nfor i in basket:\n    if i == \"Apples\":\n        apples = apples + 1\nprint(\"There is {} Apples in the basket\".format(apples))",
+        "detail": "Day_2.Exercise XP.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "apples",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-3",
+        "description": "Day_2.Exercise XP.Exercise-3",
+        "peekOfCode": "apples = 0\nfor i in basket:\n    if i == \"Apples\":\n        apples = apples + 1\nprint(\"There is {} Apples in the basket\".format(apples))\nbasket.clear()\nprint(basket)",
+        "detail": "Day_2.Exercise XP.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "L",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-4",
+        "description": "Day_2.Exercise XP.Exercise-4",
+        "peekOfCode": "L = list()\nU = 4\nfor i in range(1, 11):\n    L.append(U+0.1)\n    U += 4\nprint(L)",
+        "detail": "Day_2.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "U",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-4",
+        "description": "Day_2.Exercise XP.Exercise-4",
+        "peekOfCode": "U = 4\nfor i in range(1, 11):\n    L.append(U+0.1)\n    U += 4\nprint(L)",
+        "detail": "Day_2.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-6",
+        "description": "Day_2.Exercise XP.Exercise-6",
+        "peekOfCode": "name = \"\"\nwhile name != 'Ryota':\n    name = input('Enter your name :')",
+        "detail": "Day_2.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-7",
+        "description": "Day_2.Exercise XP.Exercise-7",
+        "peekOfCode": "fruits = input('Enter your favorite(s) fruits (NB: Separate fruit with a single space): ')\nfruits_list  = list()\nfruits_list = fruits.split()\nmy_fruits = input('Enter a fruit name : ')\ntest = 0\nfor i in fruits_list:\n    if my_fruits == i:\n        test = 1\nif test == 1 :\n    print(\"You have choose one of your favorite fruits, great !!\")",
+        "detail": "Day_2.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "fruits_list",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-7",
+        "description": "Day_2.Exercise XP.Exercise-7",
+        "peekOfCode": "fruits_list = fruits.split()\nmy_fruits = input('Enter a fruit name : ')\ntest = 0\nfor i in fruits_list:\n    if my_fruits == i:\n        test = 1\nif test == 1 :\n    print(\"You have choose one of your favorite fruits, great !!\")\nelse :\n    print(\"This fruit is not one of your favorite fruits\")",
+        "detail": "Day_2.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "my_fruits",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-7",
+        "description": "Day_2.Exercise XP.Exercise-7",
+        "peekOfCode": "my_fruits = input('Enter a fruit name : ')\ntest = 0\nfor i in fruits_list:\n    if my_fruits == i:\n        test = 1\nif test == 1 :\n    print(\"You have choose one of your favorite fruits, great !!\")\nelse :\n    print(\"This fruit is not one of your favorite fruits\")",
+        "detail": "Day_2.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-7",
+        "description": "Day_2.Exercise XP.Exercise-7",
+        "peekOfCode": "test = 0\nfor i in fruits_list:\n    if my_fruits == i:\n        test = 1\nif test == 1 :\n    print(\"You have choose one of your favorite fruits, great !!\")\nelse :\n    print(\"This fruit is not one of your favorite fruits\")",
+        "detail": "Day_2.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "L",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-8",
+        "description": "Day_2.Exercise XP.Exercise-8",
+        "peekOfCode": "L = list()\np = 0\nwhile True:\n    pizzas = input('Enter a pizza(s) topping (or tape quit to cancel): ')\n    if pizzas != 'quit':\n        L.append(pizzas)\n        print(\"You add {} to the pizza\\'s topping list \".format(pizzas))\n        p = p + 2.5\n    else:\n        pizzas = \"\"",
+        "detail": "Day_2.Exercise XP.Exercise-8",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Day_2.Exercise XP.Exercise-8",
+        "description": "Day_2.Exercise XP.Exercise-8",
+        "peekOfCode": "p = 0\nwhile True:\n    pizzas = input('Enter a pizza(s) topping (or tape quit to cancel): ')\n    if pizzas != 'quit':\n        L.append(pizzas)\n        print(\"You add {} to the pizza\\'s topping list \".format(pizzas))\n        p = p + 2.5\n    else:\n        pizzas = \"\"\n        break    ",
+        "detail": "Day_2.Exercise XP.Exercise-8",
+        "documentation": {}
+    },
+    {
+        "label": "first_l",
+        "kind": 5,
+        "importPath": "Day_2.Exerices XP Gold.Exercise-1",
+        "description": "Day_2.Exerices XP Gold.Exercise-1",
+        "peekOfCode": "first_l = [1, 2, 3, 4, 5, 6]\n# Create the second list\nsecond_l = [11, 22, 33, 44, 55, 66]\n# Use extend for concatened two lists\nfirst_l.extend(second_l)\n# using * operator to concat\n# final_list = [*first_l, *second_l]\nprint(\"\", first_l)",
+        "detail": "Day_2.Exerices XP Gold.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "second_l",
+        "kind": 5,
+        "importPath": "Day_2.Exerices XP Gold.Exercise-1",
+        "description": "Day_2.Exerices XP Gold.Exercise-1",
+        "peekOfCode": "second_l = [11, 22, 33, 44, 55, 66]\n# Use extend for concatened two lists\nfirst_l.extend(second_l)\n# using * operator to concat\n# final_list = [*first_l, *second_l]\nprint(\"\", first_l)",
+        "detail": "Day_2.Exerices XP Gold.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "Day_2.Exerices XP Gold.Exercise-3",
+        "description": "Day_2.Exerices XP Gold.Exercise-3",
+        "peekOfCode": "names = ['Samus', 'Cortana', 'V', 'Link', 'Mario', 'Cortana', 'Samus']\npt = 0\nname = input('Enter your name : ')\nfor i in names:\n    if (i == name):\n        pt = 0       \nif pt != 0:\n    print(\"Your name {} is in position {} \".format(name, pt))\nelse :\n    print(\"Your name is not on the list\")",
+        "detail": "Day_2.Exerices XP Gold.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "pt",
+        "kind": 5,
+        "importPath": "Day_2.Exerices XP Gold.Exercise-3",
+        "description": "Day_2.Exerices XP Gold.Exercise-3",
+        "peekOfCode": "pt = 0\nname = input('Enter your name : ')\nfor i in names:\n    if (i == name):\n        pt = 0       \nif pt != 0:\n    print(\"Your name {} is in position {} \".format(name, pt))\nelse :\n    print(\"Your name is not on the list\")",
+        "detail": "Day_2.Exerices XP Gold.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Day_2.Exerices XP Gold.Exercise-3",
+        "description": "Day_2.Exerices XP Gold.Exercise-3",
+        "peekOfCode": "name = input('Enter your name : ')\nfor i in names:\n    if (i == name):\n        pt = 0       \nif pt != 0:\n    print(\"Your name {} is in position {} \".format(name, pt))\nelse :\n    print(\"Your name is not on the list\")",
+        "detail": "Day_2.Exerices XP Gold.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day_3.Challenge.Challenge-1",
+        "description": "Day_3.Challenge.Challenge-1",
+        "peekOfCode": "word = input(\"Input a word : \")\nletters = {}\nfor i, letter in enumerate(word):\n  if letter not in letters:\n    letters[letter] = []\n  letters[letter].append(i)\nprint(letters)",
+        "detail": "Day_3.Challenge.Challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": "Day_3.Challenge.Challenge-1",
+        "description": "Day_3.Challenge.Challenge-1",
+        "peekOfCode": "letters = {}\nfor i, letter in enumerate(word):\n  if letter not in letters:\n    letters[letter] = []\n  letters[letter].append(i)\nprint(letters)",
+        "detail": "Day_3.Challenge.Challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "articles",
+        "kind": 5,
+        "importPath": "Day_3.Challenge.Challenge-2",
+        "description": "Day_3.Challenge.Challenge-2",
+        "peekOfCode": "articles = {\n    \"Apple\": 2.50,\n    \"Mangoe\": 0.50,\n    \"Banana\": 1.50,\n    \"Water\": 3.00,\n    \"Yogourt\": 0.75,\n    \"Orange\": 0.75,\n    \"Pineapple\": 0.50,\n    \"Papaya\": 4.50,\n    \"Tee-Shirt\": 12.8",
+        "detail": "Day_3.Challenge.Challenge-2",
+        "documentation": {}
+    },
+    {
+        "label": "wallet",
+        "kind": 5,
+        "importPath": "Day_3.Challenge.Challenge-2",
+        "description": "Day_3.Challenge.Challenge-2",
+        "peekOfCode": "wallet = float(input(\"Input your wallet amount : \"))\n# Create a empty list\nshopping = []\nfor article, price in articles.items():\n  if wallet >= price:\n    shopping.append(article)\n    wallet -= price\n# Short the list of items\nshopping.sort()\n# Print the shopping's list",
+        "detail": "Day_3.Challenge.Challenge-2",
+        "documentation": {}
+    },
+    {
+        "label": "shopping",
+        "kind": 5,
+        "importPath": "Day_3.Challenge.Challenge-2",
+        "description": "Day_3.Challenge.Challenge-2",
+        "peekOfCode": "shopping = []\nfor article, price in articles.items():\n  if wallet >= price:\n    shopping.append(article)\n    wallet -= price\n# Short the list of items\nshopping.sort()\n# Print the shopping's list\nif shopping:\n  print(\"You can buy :\")",
+        "detail": "Day_3.Challenge.Challenge-2",
+        "documentation": {}
+    },
+    {
+        "label": "keys",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-1",
+        "description": "Day_3.Exercise XP.Exercise-1",
+        "peekOfCode": "keys = ['Ten', 'Twenty', 'Thirty']\nvalues = [10, 20, 30]\n# with a dictionary comprehension\n    #dictionary = { key: value for key, value in zip(keys, values)}\n# with dict constructor\ndictionary = dict(zip(keys, values))\nprint(dictionary)",
+        "detail": "Day_3.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-1",
+        "description": "Day_3.Exercise XP.Exercise-1",
+        "peekOfCode": "values = [10, 20, 30]\n# with a dictionary comprehension\n    #dictionary = { key: value for key, value in zip(keys, values)}\n# with dict constructor\ndictionary = dict(zip(keys, values))\nprint(dictionary)",
+        "detail": "Day_3.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "dictionary",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-1",
+        "description": "Day_3.Exercise XP.Exercise-1",
+        "peekOfCode": "dictionary = dict(zip(keys, values))\nprint(dictionary)",
+        "detail": "Day_3.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "family",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-2",
+        "description": "Day_3.Exercise XP.Exercise-2",
+        "peekOfCode": "family = {}\nwhile True:\n    name = input(\"Input a name (or tape 'done' to quit) : \")\n    if name == 'done':\n        break\n    age = int(input(\"Input the person\\'s name : \"))\n    family[name] = age\ntotal_cost = 0\nfor name, age in family.items():\n    if age < 3:",
+        "detail": "Day_3.Exercise XP.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "total_cost",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-2",
+        "description": "Day_3.Exercise XP.Exercise-2",
+        "peekOfCode": "total_cost = 0\nfor name, age in family.items():\n    if age < 3:\n        cost = 0\n    elif age >= 3 and age <= 12:\n        cost = 10\n    else:\n        cost = 15\n    print(f\"{name} must paid {cost}$ for the ticket.\")\n    total_cost += cost",
+        "detail": "Day_3.Exercise XP.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "brand",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-3",
+        "description": "Day_3.Exercise XP.Exercise-3",
+        "peekOfCode": "brand = {\n    'name': 'Zara',\n    'creation_date': 1975,\n    'creator_name': 'Amancio Ortega Gaona',\n    'type_of_clothes': ['men', 'women', 'children', 'home'],\n    'international_competitors': ['Gap', 'H&M', 'Benetton'],\n    'number_stores': 7000,\n    'major_color': {\n        'France': ['blue'],\n        'Spain': ['red'],",
+        "detail": "Day_3.Exercise XP.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "brand['number_stores']",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-3",
+        "description": "Day_3.Exercise XP.Exercise-3",
+        "peekOfCode": "brand['number_stores'] = 2\n# 4. explanation of zara clients\nprint(f\"Zara's customers are men, women, children and those looking for home furnishings.\")\n# 5. Adding a key\nbrand['country_creation'] = 'Spain'\n# 6. Checking for the presence of the international_competitors key and adding Desigual\nif 'international_competitors' in brand:\n    brand['international_competitors'].append('Desigual')\n# 7. Delete informations about the date of creation\ndel brand['creation_date']",
+        "detail": "Day_3.Exercise XP.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "brand['country_creation']",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-3",
+        "description": "Day_3.Exercise XP.Exercise-3",
+        "peekOfCode": "brand['country_creation'] = 'Spain'\n# 6. Checking for the presence of the international_competitors key and adding Desigual\nif 'international_competitors' in brand:\n    brand['international_competitors'].append('Desigual')\n# 7. Delete informations about the date of creation\ndel brand['creation_date']\n# 8. Printing of the latest international competitor\nprint(f\"The last international competitor's is {brand['international_competitors'][-1]}.\")\n# 9. Printing of the main colors of clothing in the United States\nprint(f\"The major colors in the US are {', '.join(brand['major_color']['US'])}.\")",
+        "detail": "Day_3.Exercise XP.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "more_on_zara",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-3",
+        "description": "Day_3.Exercise XP.Exercise-3",
+        "peekOfCode": "more_on_zara = {\n    'creation_date': 1975,\n    'number_stores': 10000\n}\n# 13. Add information into brand's dictionary\nbrand.update(more_on_zara)\n# 14. Printing de la valeur de la clé number_stores\nprint(f\"The number of Zara stores is now {brand['number_stores']}.\")",
+        "detail": "Day_3.Exercise XP.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-4",
+        "description": "Day_3.Exercise XP.Exercise-4",
+        "peekOfCode": "users = [\"Mickey\",\"Minnie\",\"Donald\",\"Ariel\",\"Pluto\"]\ndisney_users_A = {}\nfor i, user in enumerate(users):\n    disney_users_A[user] = i\nprint(disney_users_A)\n# 2nd result's creation\ndisney_users_B = {}\nfor i, user in enumerate(users):\n    disney_users_B[i] = user\nprint(disney_users_B)",
+        "detail": "Day_3.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "disney_users_A",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-4",
+        "description": "Day_3.Exercise XP.Exercise-4",
+        "peekOfCode": "disney_users_A = {}\nfor i, user in enumerate(users):\n    disney_users_A[user] = i\nprint(disney_users_A)\n# 2nd result's creation\ndisney_users_B = {}\nfor i, user in enumerate(users):\n    disney_users_B[i] = user\nprint(disney_users_B)\n# 3rd result's creation",
+        "detail": "Day_3.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "disney_users_B",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-4",
+        "description": "Day_3.Exercise XP.Exercise-4",
+        "peekOfCode": "disney_users_B = {}\nfor i, user in enumerate(users):\n    disney_users_B[i] = user\nprint(disney_users_B)\n# 3rd result's creation\ndisney_users_C = {}\nfor user in sorted(users):\n    disney_users_C[user] = users.index(user)\nprint(disney_users_C)\n# 1st result's creation with names contains \"i\"",
+        "detail": "Day_3.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "disney_users_C",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-4",
+        "description": "Day_3.Exercise XP.Exercise-4",
+        "peekOfCode": "disney_users_C = {}\nfor user in sorted(users):\n    disney_users_C[user] = users.index(user)\nprint(disney_users_C)\n# 1st result's creation with names contains \"i\"\ndisney_users_D = {}\nfor user in users:\n    if 'i' in user:\n        disney_users_D[user] = users.index(user)\nprint(disney_users_D)",
+        "detail": "Day_3.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "disney_users_D",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-4",
+        "description": "Day_3.Exercise XP.Exercise-4",
+        "peekOfCode": "disney_users_D = {}\nfor user in users:\n    if 'i' in user:\n        disney_users_D[user] = users.index(user)\nprint(disney_users_D)\n# 1st result's creation with names start by \"m\" or \"p\"\ndisney_users_E = {}\nfor user in users:\n    if user.startswith(('m', 'p')):\n        disney_users_E[user] = users.index(user)",
+        "detail": "Day_3.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "disney_users_E",
+        "kind": 5,
+        "importPath": "Day_3.Exercise XP.Exercise-4",
+        "description": "Day_3.Exercise XP.Exercise-4",
+        "peekOfCode": "disney_users_E = {}\nfor user in users:\n    if user.startswith(('m', 'p')):\n        disney_users_E[user] = users.index(user)\nprint(disney_users_E)",
+        "detail": "Day_3.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "HOSTNAME",
+        "kind": 5,
+        "importPath": "dev_python",
+        "description": "dev_python",
+        "peekOfCode": "HOSTNAME = 'localhost'\nUSERNAME = 'postgres'\nPASSWORD = 'postgre'\nDATABASE = 'ibam'\n\"\"\" #Connection au serveur\ntry:\n    connection = psycopg2.connect(host=HOSTNAME, user=USERNAME, password=PASSWORD)\n    print(\"conection reussie!!\")\nexcept psycopg2.Error as e:\n    print(\"connection refusé veillez verifir les paramettre de connection!!\")",
+        "detail": "dev_python",
+        "documentation": {}
+    },
+    {
+        "label": "USERNAME",
+        "kind": 5,
+        "importPath": "dev_python",
+        "description": "dev_python",
+        "peekOfCode": "USERNAME = 'postgres'\nPASSWORD = 'postgre'\nDATABASE = 'ibam'\n\"\"\" #Connection au serveur\ntry:\n    connection = psycopg2.connect(host=HOSTNAME, user=USERNAME, password=PASSWORD)\n    print(\"conection reussie!!\")\nexcept psycopg2.Error as e:\n    print(\"connection refusé veillez verifir les paramettre de connection!!\")\n #Validation des transaction",
+        "detail": "dev_python",
+        "documentation": {}
+    },
+    {
+        "label": "PASSWORD",
+        "kind": 5,
+        "importPath": "dev_python",
+        "description": "dev_python",
+        "peekOfCode": "PASSWORD = 'postgre'\nDATABASE = 'ibam'\n\"\"\" #Connection au serveur\ntry:\n    connection = psycopg2.connect(host=HOSTNAME, user=USERNAME, password=PASSWORD)\n    print(\"conection reussie!!\")\nexcept psycopg2.Error as e:\n    print(\"connection refusé veillez verifir les paramettre de connection!!\")\n #Validation des transaction\n connection.autocommit = True",
+        "detail": "dev_python",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE",
+        "kind": 5,
+        "importPath": "dev_python",
+        "description": "dev_python",
+        "peekOfCode": "DATABASE = 'ibam'\n\"\"\" #Connection au serveur\ntry:\n    connection = psycopg2.connect(host=HOSTNAME, user=USERNAME, password=PASSWORD)\n    print(\"conection reussie!!\")\nexcept psycopg2.Error as e:\n    print(\"connection refusé veillez verifir les paramettre de connection!!\")\n #Validation des transaction\n connection.autocommit = True\ncursor = connection.cursor() \"\"\"",
+        "detail": "dev_python",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "dev_python",
+        "description": "dev_python",
+        "peekOfCode": "cursor = connection.cursor() \"\"\"\n #Creation de la BD\ncursor.execute('DROP DATABASE IF EXISTS {};'.format('ibam'))\ncursor.execute(\"CREATE DATABASE ibam;\")\n#Coneection à la BD\ntry:\n    connection = psycopg2.connect(host=HOSTNAME, user=USERNAME, password=PASSWORD, dbname=DATABASE)\n    print(\"conection reussie!!\")\nexcept psycopg2.Error as e:\n    print(\"connection refusé veillez verifir les paramettre de connection!!\")",
+        "detail": "dev_python",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "dev_python",
+        "description": "dev_python",
+        "peekOfCode": "values = [\n      ('Peter', 'Grid', '77445511','Lowstreet 4'),\n    ('All', 'Grid', '77445511','Lowstreet 4'),\n    ('Vall', 'Grid', '77445511','Lowstreet 4'),\n    ('Til', 'Grid', '77445511','Lowstreet 4'),\n    ('TO', 'Grid', '77445511','Lowstreet 4'),\n    ('KA', 'Grid', '77445511','Lowstreet 4'),\n    ('DK', 'Grid', '77445511','Lowstreet 4'),\n    ('SQAZ', 'Grid', '77445511','Lowstreet 4'),\n    ('NAD', 'Grid', '77445511','Lowstreet 4'),",
+        "detail": "dev_python",
+        "documentation": {}
+    },
+    {
+        "label": "sql1",
+        "kind": 5,
+        "importPath": "dev_python",
+        "description": "dev_python",
+        "peekOfCode": "sql1 = \"SELECT * FROM student;\"\ncursor.execute(sql1)\ncursor.fetchall()\nfor data in cursor.fetchall():\n    print(data)",
+        "detail": "dev_python",
+        "documentation": {}
+    }
+]
