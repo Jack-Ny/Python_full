@@ -683,6 +683,204 @@
         "documentation": {}
     },
     {
+        "label": "matrix",
+        "kind": 5,
+        "importPath": "Day_4.Challenge.challenge-1",
+        "description": "Day_4.Challenge.challenge-1",
+        "peekOfCode": "matrix = [\n    \"7i3\",\n    \"Tsi\",\n    \"h%x\",\n    \"i #\",\n    \"sM \",\n    \"$a \",\n    \"#t%\",\n    \"^r!\"\n]",
+        "detail": "Day_4.Challenge.challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "Day_4.Challenge.challenge-1",
+        "description": "Day_4.Challenge.challenge-1",
+        "peekOfCode": "output = \"\"\n#  For each column of the matrix\nfor col in range(len(matrix[0])):\n    # For each row in the matrix\n    for row in range(len(matrix)):\n        # Retrieves the character of the current column and row\n        char = matrix[row][col]\n        # If the character is alpha, append it to the output string\n        if char.isalpha():\n            output += char",
+        "detail": "Day_4.Challenge.challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "display_message",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-1",
+        "description": "Day_4.Exercise XP.Exercise-1",
+        "peekOfCode": "def display_message():\n  message = \"I\\'m learning python in this course\"\n  print(message)\ndisplay_message()",
+        "detail": "Day_4.Exercise XP.Exercise-1",
+        "documentation": {}
+    },
+    {
+        "label": "favorite_book",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-2",
+        "description": "Day_4.Exercise XP.Exercise-2",
+        "peekOfCode": "def favorite_book(title):\n  print(\"My favorite book is \"+ title)\nfavorite_book(\"Dans la gueule du loup\")",
+        "detail": "Day_4.Exercise XP.Exercise-2",
+        "documentation": {}
+    },
+    {
+        "label": "describe_city",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-3",
+        "description": "Day_4.Exercise XP.Exercise-3",
+        "peekOfCode": "def describe_city(city, country):\n  print(city + \" is in \" + country + \".\")\ndescribe_city('KOUDOUGOU','BURKINA')",
+        "detail": "Day_4.Exercise XP.Exercise-3",
+        "documentation": {}
+    },
+    {
+        "label": "compare_numbers",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-4",
+        "description": "Day_4.Exercise XP.Exercise-4",
+        "peekOfCode": "def compare_numbers(num):\n  random_num = random.randint(1, 100)\n  if num == random_num:\n    print(\"Success ! Two numbers are same : \" + str(num) + \".\")\n  else:\n    print(\"Failed. Two numbers aren\\'t same : \" + str(num) + \" et \" + str(random_num) + \".\")\ncompare_numbers(70)",
+        "detail": "Day_4.Exercise XP.Exercise-4",
+        "documentation": {}
+    },
+    {
+        "label": "make_shirt",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-5",
+        "description": "Day_4.Exercise XP.Exercise-5",
+        "peekOfCode": "def make_shirt(size, text):\n  print(\"The size of the shirt is \" + size + \" and the text is '\" + text + \"'.\")\n# call of make_shirt's function with parameters\nmake_shirt(\"medium\", \"I love Python\")\ndef make_shirt(size=\"large\", text=\"I love Python\"):\n  print(\"The size of the shirt is \" + size + \" and the text is '\" + text + \"'.\")\n# Make a shirt with the default's message\nmake_shirt()\n# Make a moyen shirt with the default's message\nmake_shirt(size=\"medium\")",
+        "detail": "Day_4.Exercise XP.Exercise-5",
+        "documentation": {}
+    },
+    {
+        "label": "make_shirt",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-5",
+        "description": "Day_4.Exercise XP.Exercise-5",
+        "peekOfCode": "def make_shirt(size=\"large\", text=\"I love Python\"):\n  print(\"The size of the shirt is \" + size + \" and the text is '\" + text + \"'.\")\n# Make a shirt with the default's message\nmake_shirt()\n# Make a moyen shirt with the default's message\nmake_shirt(size=\"medium\")\n# Make a shirt of any size with a different message\nmake_shirt(size=\"small\", text=\"I love coding\")",
+        "detail": "Day_4.Exercise XP.Exercise-5",
+        "documentation": {}
+    },
+    {
+        "label": "show_magicians",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-6",
+        "description": "Day_4.Exercise XP.Exercise-6",
+        "peekOfCode": "def show_magicians(names):\n  for name in names:\n    print(name)\nmagician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']\n# Calling the show_magicians() function with the list of magicians' names\nshow_magicians(magician_names)\ndef make_great(names):\n  for i in range(len(names)):\n    names[i] = names[i] + \" the Great\"\n# Calling the make_great() function with the list of magicians' names",
+        "detail": "Day_4.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "make_great",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-6",
+        "description": "Day_4.Exercise XP.Exercise-6",
+        "peekOfCode": "def make_great(names):\n  for i in range(len(names)):\n    names[i] = names[i] + \" the Great\"\n# Calling the make_great() function with the list of magicians' names\nmake_great(magician_names)\n# Calling the show_magicians() function to display the modified list\nshow_magicians(magician_names)\ndef make_great(names):\n  great_names = [name + \" the Great\" for name in names]\n  return great_names",
+        "detail": "Day_4.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "make_great",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-6",
+        "description": "Day_4.Exercise XP.Exercise-6",
+        "peekOfCode": "def make_great(names):\n  great_names = [name + \" the Great\" for name in names]\n  return great_names\n# Calling the make_great() function to get a new modified list\ngreat_magician_names = make_great(magician_names)\n# Calling the show_magicians() function to display the new modified list\nshow_magicians(great_magician_names)",
+        "detail": "Day_4.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "magician_names",
+        "kind": 5,
+        "importPath": "Day_4.Exercise XP.Exercise-6",
+        "description": "Day_4.Exercise XP.Exercise-6",
+        "peekOfCode": "magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']\n# Calling the show_magicians() function with the list of magicians' names\nshow_magicians(magician_names)\ndef make_great(names):\n  for i in range(len(names)):\n    names[i] = names[i] + \" the Great\"\n# Calling the make_great() function with the list of magicians' names\nmake_great(magician_names)\n# Calling the show_magicians() function to display the modified list\nshow_magicians(magician_names)",
+        "detail": "Day_4.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "great_magician_names",
+        "kind": 5,
+        "importPath": "Day_4.Exercise XP.Exercise-6",
+        "description": "Day_4.Exercise XP.Exercise-6",
+        "peekOfCode": "great_magician_names = make_great(magician_names)\n# Calling the show_magicians() function to display the new modified list\nshow_magicians(great_magician_names)",
+        "detail": "Day_4.Exercise XP.Exercise-6",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_temp",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def get_random_temp():\n    return random.uniform(-10, 40)\nfor i in range(10):\n    print(get_random_temp())\nimport random\ndef get_random_temp():\n    return random.randint(-10, 40)\n#############################################################\ndef main():\n    # Obtaining a random temperature",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_temp",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def get_random_temp():\n    return random.randint(-10, 40)\n#############################################################\ndef main():\n    # Obtaining a random temperature\n    temp = (get_random_temp())\n    print(f\"The current temperature is {temp} degrees Celsius.\")\nmain()\n###############################################################################\nimport random",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def main():\n    # Obtaining a random temperature\n    temp = (get_random_temp())\n    print(f\"The current temperature is {temp} degrees Celsius.\")\nmain()\n###############################################################################\nimport random\ndef get_random_temp():\n    return random.randint(-10, 40)\ndef main():",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_temp",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def get_random_temp():\n    return random.randint(-10, 40)\ndef main():\n    temp = get_random_temp()\n    if temp < 0:\n        print(f\"it's freezing cold! Wear extra layers today. The current temperature is {temp} degrees Celsius.\")\n    elif temp >= 0 and temp <= 16:\n        print(f\"Pretty cold! Don't forget your coat. The current temperature is {temp} degrees Celsius.\")\n    elif temp > 16 and temp <= 23:\n        print(f\"It's cool. Remember to put on a sweater. The current temperature is {temp} degrees Celsius.\")",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def main():\n    temp = get_random_temp()\n    if temp < 0:\n        print(f\"it's freezing cold! Wear extra layers today. The current temperature is {temp} degrees Celsius.\")\n    elif temp >= 0 and temp <= 16:\n        print(f\"Pretty cold! Don't forget your coat. The current temperature is {temp} degrees Celsius.\")\n    elif temp > 16 and temp <= 23:\n        print(f\"It's cool. Remember to put on a sweater. The current temperature is {temp} degrees Celsius.\")\n    elif temp > 23 and temp <= 32:\n        print(f\"The weather is nice. Don't forget to take a jacket if you go out. The current temperature is {temp} degrees Celsius.\")",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_temp",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def get_random_temp(saison):\n  if saison == \"été\":\n    lower_bound = 16\n    upper_bound = 40\n  elif saison == \"automne\" or saison == \"printemps\":\n    lower_bound = -10\n    upper_bound = 16\n  elif saison == \"hiver\":\n    lower_bound = -10\n    upper_bound = 16",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def main():\n  saison = input(\"Enter a season (été, automne, hiver, printemps) : \")\n  temp = get_random_temp(saison)\n  print(\"The temperature is\", temp, \"degrees.\")\nmain()\n################bonus 1 ##############\ndef main():\n  saison = input(\"Saisissez une saison (été, automne, hiver, printemps) : \")\n  temp = get_random_temp(saison)\n  print(\"La température est de\", temp, \"degrés.\")",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def main():\n  saison = input(\"Saisissez une saison (été, automne, hiver, printemps) : \")\n  temp = get_random_temp(saison)\n  print(\"La température est de\", temp, \"degrés.\")\nmain()\n#################################\ndef main():\n  mois = int(input(\"Saisissez le numéro du mois (1-12) : \"))\n  if mois == 12 or mois == 1 or mois == 2:\n    saison = \"hiver\"",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Day_4.Exercise XP.Exercise-7",
+        "description": "Day_4.Exercise XP.Exercise-7",
+        "peekOfCode": "def main():\n  mois = int(input(\"Saisissez le numéro du mois (1-12) : \"))\n  if mois == 12 or mois == 1 or mois == 2:\n    saison = \"hiver\"\n  elif mois >= 3 and mois <= 5:\n    saison = \"printemps\"\n  elif mois >= 6 and mois <= 8:\n    saison = \"été\"\n  elif mois >= 9 and mois <= 11:\n    saison = \"automne\"",
+        "detail": "Day_4.Exercise XP.Exercise-7",
+        "documentation": {}
+    },
+    {
         "label": "HOSTNAME",
         "kind": 5,
         "importPath": "dev_python",
