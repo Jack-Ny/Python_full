@@ -881,6 +881,69 @@
         "documentation": {}
     },
     {
+        "label": "words",
+        "kind": 5,
+        "importPath": "Day_5.Challenge.Challenge-1",
+        "description": "Day_5.Challenge.Challenge-1",
+        "peekOfCode": "words = input(\"Saisissez une séquence de mots séparés par des virgules : \")\n# Separates the word string into a word list\nwords_list = [word.strip() for word in words.split(',')]\n#  Sorts the word list alphabetically\nwords_list.sort()\n# Displays the comma-separated list of words\nprint(', '.join(words_list))",
+        "detail": "Day_5.Challenge.Challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "words_list",
+        "kind": 5,
+        "importPath": "Day_5.Challenge.Challenge-1",
+        "description": "Day_5.Challenge.Challenge-1",
+        "peekOfCode": "words_list = [word.strip() for word in words.split(',')]\n#  Sorts the word list alphabetically\nwords_list.sort()\n# Displays the comma-separated list of words\nprint(', '.join(words_list))",
+        "detail": "Day_5.Challenge.Challenge-1",
+        "documentation": {}
+    },
+    {
+        "label": "print_grid",
+        "kind": 2,
+        "importPath": "Day_5.Mini_projet.projet_1",
+        "description": "Day_5.Mini_projet.projet_1",
+        "peekOfCode": "def print_grid():\n    for row in grid:\n        print(' '.join(row))\n# Function to check if a player has won\ndef check_win(player):\n    # Checks rows\n    for row in grid:\n        if row == [player, player, player]:\n            return True\n    # Checks columns",
+        "detail": "Day_5.Mini_projet.projet_1",
+        "documentation": {}
+    },
+    {
+        "label": "check_win",
+        "kind": 2,
+        "importPath": "Day_5.Mini_projet.projet_1",
+        "description": "Day_5.Mini_projet.projet_1",
+        "peekOfCode": "def check_win(player):\n    # Checks rows\n    for row in grid:\n        if row == [player, player, player]:\n            return True\n    # Checks columns\n    for col in range(3):\n        if grid[0][col] == player and grid[1][col] == player and grid[2][col] == player:\n            return True\n    # Checks diagonals",
+        "detail": "Day_5.Mini_projet.projet_1",
+        "documentation": {}
+    },
+    {
+        "label": "grid",
+        "kind": 5,
+        "importPath": "Day_5.Mini_projet.projet_1",
+        "description": "Day_5.Mini_projet.projet_1",
+        "peekOfCode": "grid = [\n    [' ', ' ', ' '],\n    [' ', ' ', ' '],\n    [' ', ' ', ' ']\n]\n# list of players\nplayers = ['O', 'X']\n# Clue of the current player in the list of players\ncurrent_player_index = 0\n# Function to display the grid",
+        "detail": "Day_5.Mini_projet.projet_1",
+        "documentation": {}
+    },
+    {
+        "label": "players",
+        "kind": 5,
+        "importPath": "Day_5.Mini_projet.projet_1",
+        "description": "Day_5.Mini_projet.projet_1",
+        "peekOfCode": "players = ['O', 'X']\n# Clue of the current player in the list of players\ncurrent_player_index = 0\n# Function to display the grid\ndef print_grid():\n    for row in grid:\n        print(' '.join(row))\n# Function to check if a player has won\ndef check_win(player):\n    # Checks rows",
+        "detail": "Day_5.Mini_projet.projet_1",
+        "documentation": {}
+    },
+    {
+        "label": "current_player_index",
+        "kind": 5,
+        "importPath": "Day_5.Mini_projet.projet_1",
+        "description": "Day_5.Mini_projet.projet_1",
+        "peekOfCode": "current_player_index = 0\n# Function to display the grid\ndef print_grid():\n    for row in grid:\n        print(' '.join(row))\n# Function to check if a player has won\ndef check_win(player):\n    # Checks rows\n    for row in grid:\n        if row == [player, player, player]:",
+        "detail": "Day_5.Mini_projet.projet_1",
+        "documentation": {}
+    },
+    {
         "label": "HOSTNAME",
         "kind": 5,
         "importPath": "dev_python",
