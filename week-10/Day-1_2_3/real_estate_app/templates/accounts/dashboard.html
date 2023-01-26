@@ -7,8 +7,8 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1 class="display-4">User Dashboard</h1>
-          <p class="lead">Manage your  Real Estate account</p>
+          <h1 class="display-4">Dashboard de l'utilisateur</h1>
+          <p class="lead">Gerer votre compte immobilier</p>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
             <a href="{% url 'index' %}">
-              <i class="fas fa-home"></i> Home</a>
+              <i class="fas fa-home"></i> Acceuil</a>
           </li>
           <li class="breadcrumb-item active"> Dashboard</li>
         </ol>
@@ -36,14 +36,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>Welcome {{ user.first_name }}</h2>
+          <h2>Bienvenue {{ user.first_name }}</h2>
           {% if contacts %}
-            <p>Here are the property listings that you have inquired about</p>
+            <p>Liste des annonces sur lesquelles vous avez demande des renseignements</p>
             <table class="table">
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Property</th>
+                  <th scope="col">Propriete</th>
                   <th></th>
                 </tr>
               </thead>
@@ -53,14 +53,14 @@
                     <td>{{ contact.id }}</td>
                     <td>{{ contact.listing }}</td>
                     <td>
-                      <a class="btn btn-light" href="{% url 'listing' contact.listing_id %}">View Listing</a>
+                      <a class="btn btn-light" href="{% url 'listing' contact.listing_id %}">Voir la liste</a>
                     </td>
                   </tr>
                 {% endfor %}
               </tbody>
             </table>
           {% else %}
-            <p>You have not made any inquiries</p>
+            <p>Desole, vous n'avez pas fait de renseignements</p>
           {% endif %}
         </div>
       </div>

@@ -19,7 +19,7 @@ def contact(request):
       user_id = request.user.id
       has_contacted = Contact.objects.all().filter(listing_id=listing_id, user_id=user_id)
       if has_contacted:
-        messages.error(request, 'You have already made an inquiry for this listing')
+        messages.error(request, 'Vous avez deja fait une demande pour cette annonce')
         return redirect('/listings/'+listing_id)
 
     contact = Contact(
@@ -32,7 +32,7 @@ def contact(request):
         user_id=user_id )
     contact.save()
     
-    messages.success(request, 'Your request has been submitted, a realtor will get back to you soon')
+    messages.success(request, 'Votre requete a ete soumis, un agent immobilier vous contactera bientot')
     return redirect('/listings/'+listing_id)
     
     '''# Send email
